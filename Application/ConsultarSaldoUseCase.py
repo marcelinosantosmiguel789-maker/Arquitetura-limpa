@@ -1,0 +1,2 @@
+from domain.interfaces.repository import IContasRepository
+from isNullOrEmpty.is_null_or_empty import is_null_or_empty
