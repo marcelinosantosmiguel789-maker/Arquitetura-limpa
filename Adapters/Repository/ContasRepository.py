@@ -1,7 +1,7 @@
-from domain.entiities.ContaEntitie import Conta
-from domain.interfaces.repository import IContasRepository
+from Domain.Entities.ContaEntitie import Conta
+from Domain.interfaces.IContaRepository import IContaRepository
 
-class ContasRepository(IContasRepository):
+class ContasRepository(IContaRepository):
     def __init__(self):
         self.contas = {}
 
